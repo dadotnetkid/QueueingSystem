@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueingSystem.Tests", "Que
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueingSystem.Data", "QueueingSystem.Data\QueueingSystem.Data.csproj", "{4E91D49D-6DA0-455C-B35C-D6C69C3D7D91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueingSystem.Reports", "QueueingSystem.Reports\QueueingSystem.Reports.csproj", "{DE56E67C-CA39-47A9-AEE0-5AB8639F2707}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4E91D49D-6DA0-455C-B35C-D6C69C3D7D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E91D49D-6DA0-455C-B35C-D6C69C3D7D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E91D49D-6DA0-455C-B35C-D6C69C3D7D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE56E67C-CA39-47A9-AEE0-5AB8639F2707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE56E67C-CA39-47A9-AEE0-5AB8639F2707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE56E67C-CA39-47A9-AEE0-5AB8639F2707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE56E67C-CA39-47A9-AEE0-5AB8639F2707}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

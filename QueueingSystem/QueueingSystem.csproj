@@ -275,6 +275,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QueueingSystem.Data\QueueingSystem.Data.csproj">
+      <Project>{4e91d49d-6da0-455c-b35c-d6c69c3d7d91}</Project>
+      <Name>QueueingSystem.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QueueingSystem.Reports\QueueingSystem.Reports.csproj">
+      <Project>{de56e67c-ca39-47a9-aee0-5ab8639f2707}</Project>
+      <Name>QueueingSystem.Reports</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
